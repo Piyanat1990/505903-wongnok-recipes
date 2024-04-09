@@ -1,0 +1,32 @@
+.manu-container {
+    width: 96%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.card {
+    color: #333
+}
+
+.search-container {
+    margin: 30px 0;
+}
+
+.search-input {
+    padding: 1em 1em;
+    font-size: 18px;
+    width: 96%;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+P {
+    color: red;
+}
+
+span {
+    color: brown;
+    font-size: 25px;
+}
