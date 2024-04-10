@@ -14,10 +14,19 @@
 
 .title {
     color: #333;
-    text-align: center;
+    text-align: start;
 }
 
 img {
     width: 600px;
     height: 600px;
+}
+
+
+a{
+    padding: 0;
+}
+
+h3{
+    margin: 0;
 }

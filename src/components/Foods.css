@@ -5,7 +5,8 @@
 }
 
 .card {
-    color: #333
+    color: #333;
+    
 }
 
 .search-container {
@@ -22,11 +23,18 @@
     outline: none;
 }
 
-P {
-    color: red;
-}
+
 
 span {
     color: brown;
-    font-size: 25px;
+    font-size: 20px;
 }
+
+hr.seperate{
+    border: 1px solid orange;
+    border-radius: 2px;
+    margin: 0;
+
+}
+
+

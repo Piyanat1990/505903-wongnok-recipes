@@ -16,21 +16,18 @@ export default function Foods() {
             <div className="search-container">
                 <input type="text"
                     className="search-input"
-                    placeholder="search"
+                    placeholder="Search"
                     value={search}
                     onChange={(e) => setSearch(e.target.value)} />
-                <p>Ex.//ค้นหา=>ชื่ออาหาร:"ต้มยำกุ้ง..." / ระยะเวลาในการปรุง: 20 (นาที) / ระดับความยากง่าย:"ง่าย, ปานกลาง, ยาก"</p>
+                <p>Ex.//ค้นหา :ชื่ออาหาร:"<span>ต้มยำกุ้ง...</span>" / ระยะเวลาในการปรุง: <span>45</span>(นาที) / ระดับความยากง่าย:"<span>ง่าย, ปานกลาง, ยาก"</span></p>
             </div>
             <article>
                 {filterFoods.map((item) => (
                     <Link to={`/foods/${item.id}`} key={item.id}>
                         <div className="card" >
-                            <h2>
-                                {item.title}
-                            </h2>
-                            <hr />
+                            <h3>{item.title}</h3>  
                         </div>
-
+                        <hr className="seperate" />
                     </Link>
                 ))}
             </article>

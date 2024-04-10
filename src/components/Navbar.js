@@ -3,7 +3,7 @@ import "./Navbar.css"
 export default function Navbar() {
     return (
         <nav>
-            <Link to="/" className="logo">
+            <Link to="/foods" className="logo">
                 <h3>Wongnok Recipes</h3>
             </Link>
             <Link to="/">Home</Link>
