@@ -10,6 +10,6 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
-
-https://wongnok-react.netlify.app/
+###deplop by netlify
+https://react-wongnok.netlify.app/
 
