@@ -6,6 +6,8 @@ import NotFound from './components/NotFound';
 import Navbar from './components/Navbar';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Details from './components/Details';
+import Create from './components/Createx';
+import Createx from './components/Createx';
 
 // /about=>about
 // /manu => manu
@@ -23,6 +25,7 @@ function App() {
         <Route path="/home" element={<Navigate to="/" />}></Route>
         <Route path="/info" element={<Navigate to="/about" />}></Route>
         <Route path="/foods/:id" element={<Details />}></Route>
+        <Route path="/create" element={<Createx />}></Route>
       </Routes>
     </BrowserRouter>
   );
